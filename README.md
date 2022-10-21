@@ -42,5 +42,5 @@ scrapy crawl YOUR BOT NAEM -s ELS_INDEX=$index
 ## Todo List
 - Elasticsearch 이외의 검색엔진에서도 작동 여부 확인.
 
-##Credit
+## Credit
 - [Scrapy-Redis](https://github.com/rmax/scrapy-redis) 코드의 Redis 부분을 Elastiscsearch로 변경하여 개발하였습니다.

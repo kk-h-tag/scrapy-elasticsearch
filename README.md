@@ -26,6 +26,7 @@ SCHEDULER_QUEUE_CLASS = "Your Scrapy Project Name.Scrapy_Elasticsearch.queue.Spi
 ```c
 scrapy crawl YOUR BOT NAEM -s ELS_INDEX=$index
 ```
+- 본인의 Spider에 Scrapy_Elasticsearch.spiders.py의 ElasticsearchCrawlSpider를 상속시키세요.
 - 검색엔진의 index 구성은 아래 mapping을 확인하세요.
 
 
